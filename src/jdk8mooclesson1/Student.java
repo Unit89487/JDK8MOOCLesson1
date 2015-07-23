@@ -5,10 +5,38 @@
  */
 package jdk8mooclesson1;
 
-/**
- *
- * @author unit89487
- */
+
 public class Student {
+    
+    int gradYear;
+    double score; 
+    
+    //constructors
+    
+    public void Student(){
+    
+    }
+    
+    public void Student(int gradYear, double score) {
+        this.gradYear = gradYear; 
+        this.score = score; 
+    }
+    
+    //getters and setters
+    public void setGradYear(int gradYear) {
+        this.gradYear = gradYear; 
+    }
+    
+    public int getGradYear() {
+        return gradYear; 
+    }
+    
+    public void setScore(double score) {
+        this.score = score; 
+    }
+    
+    public double getScore(){
+        return score; 
+    }
     
 }
